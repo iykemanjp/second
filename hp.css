@@ -1,0 +1,16 @@
+body{
+	background-image: url(sun.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+h3{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: verdana;
+	text-align: center;
+	transition: 300ms;
+}

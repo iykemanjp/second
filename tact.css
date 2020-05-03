@@ -1,0 +1,57 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(sun.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.contact{
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 25px;
+	float:left;
+}
+
+nav{
+	background-color: black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+}
+
+
+ul li{
+
+	display: inline-block;
+	font-size: 36px;
+	/*background-color: dodgerblue;*/
+	padding: 5px 5px;
+	margin: 0px 10px;
+	transition: all 2s ease;
+
+}
+
+ul li:hover{
+	background-color: royalblue;
+	font-size: 50px;
+}
+
+
+
+ul li a{
+	color: white;
+}
+
+ul li a:hover{
+	background-color: darkblue;
+}
+
+
+
